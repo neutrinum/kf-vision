@@ -1,0 +1,36 @@
+imports
+1-15
+
+classes and functions definition
+16-311
+	class KalmanFilter
+	other functions
+
+parameters definition
+312-450
+	size of ball and table, gravity
+	initial rotation guess
+
+	linear state space definition
+	kalman filter parameters and initialization
+
+	camera parameters and other parameters
+
+image analysis and tracking (main program)
+451-end
+
+	load and set video
+		(here specify path of video, line 458)
+	start loop
+		
+		image analysis
+		466-624
+
+		kalman filter
+		625-639
+
+		draw and show results
+		640-725
+	
+		performance measurements (time)
+		
